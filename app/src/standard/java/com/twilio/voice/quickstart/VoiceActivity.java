@@ -60,7 +60,7 @@ import java.util.Vector;
 import kotlin.Unit;
 
 public class VoiceActivity extends AppCompatActivity implements VoiceService.Observer {
-    static final String accessToken = "PASTE_TOKEN_HERE";
+    static final String accessToken = "access_token_updated_locally";
 
     private static final Logger log = new Logger(VoiceActivity.class);
     private static final int PERMISSIONS_ALL = 100;
@@ -80,6 +80,7 @@ public class VoiceActivity extends AppCompatActivity implements VoiceService.Obs
     private UUID pendingCallId;
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         log.debug("onCreate");
 

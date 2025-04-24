@@ -1,4 +1,4 @@
-const callerNumber = '1234567890';
+const callerNumber = '+38344806028';
 const callerId = 'client:alice';
 const defaultIdentity = 'alice';
 

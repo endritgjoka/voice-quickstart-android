@@ -49,7 +49,7 @@ public class CustomDeviceActivity extends AppCompatActivity {
     private static final String TAG = "CustomDeviceActivity";
     private static final int MIC_PERMISSION_REQUEST_CODE = 1;
 
-    private String accessToken = "PASTE_YOUR_ACCESS_TOKEN_HERE";
+    private String accessToken = "access_token_updated_locally";
     private AudioManager audioManager;
     private int savedAudioMode = AudioManager.MODE_NORMAL;
 
